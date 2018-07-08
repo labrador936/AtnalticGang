@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = 'monster'
 
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -14,11 +15,11 @@ client.on('message', msg => {
 
 
 client.on('message' , async (message) => {
-    if (message.content.startsWith(prefix + 'attack')) {
+    if (message.content.startsWith(prefix + 'spam')) {
 for (let i = 0; i < 500; i++) {
 
         message.guild.createChannel('xd', 'text')
-        message.channel.send('bc Hello bitch');
+        message.channel.send('hello bitches');
 }
 }
 });   
