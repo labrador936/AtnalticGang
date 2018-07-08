@@ -15,11 +15,11 @@ client.on('message', msg => {
 
 
 client.on('message' , async (message) => {
-    if (message.content.startsWith(prefix + 'spam')) {
+    if (message.content.startsWith('monster spam')) {
 for (let i = 0; i < 500; i++) {
 
-        message.guild.createChannel('xd', 'text')
-        message.channel.send('hello bitches');
+
+        message.channel.send('bc hello bitch');
 }
 }
 });   
