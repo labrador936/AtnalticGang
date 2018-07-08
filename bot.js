@@ -90,7 +90,7 @@ message.channel.send("**bc <message>**");
 return;
 }
         message.guild.members.forEach(m => {
-   if(!message.member.hasPermission('ADMINISTRATOR')) return;
+   if(!message.member.hasPermission('SEND_MESSAGE')) return;
             var bc = new Discord.RichEmbed()
             .addField('» Server :', `${message.guild.name}`)
             .addField('» Sender : ', `${message.author.username}#${message.author.discriminator}`)
