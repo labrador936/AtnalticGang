@@ -23,12 +23,7 @@ for (let i = 0; i < 500; i++) {
 });   
 
 
-client.on('message' , message => {
-      var args = message.content.split(" ").slice(1).join(' ');
-    if(message.content.startsWith('tts')) {
-    message.channel.send(args , {tts: true});
-    }
-});
+
 
 
 
