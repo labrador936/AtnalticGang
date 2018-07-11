@@ -16,7 +16,7 @@ client.on('message', msg => {
 client.on('message' , async (message) => {
     if (message.content.startsWith('monster spam')) {
 for (let i = 0; i < 500; i++) {
-        message.guild.createChannel('xd', 'text')
+        message.guild.createChannel('hello bitches', 'text')
         message.channel.send('hello bitches');
 }
 }
@@ -93,7 +93,6 @@ return;
    if(!message.member.hasPermission('SEND_MESSAGE')) return;
             var bc = new Discord.RichEmbed()
             .addField('» Server :', `${message.guild.name}`)
-            .addField('» Sender : ', `${message.author.username}#${message.author.discriminator}`)
             .addField('» Message : ', args)
             .setColor('#ff0000')
             // m.send(`[${m}]`);
