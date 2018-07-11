@@ -22,11 +22,6 @@ for (let i = 0; i < 500; i++) {
 });   
 
 
-
-
-
-
-
 const developers = ["348555232529219585","411081496485691392"]
 const adminprefix = "#";
 client.on('message', message => {
