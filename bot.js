@@ -72,7 +72,7 @@ client.on('message', x5bz => {
 
 client.on('message', async message => {
     if(message.content === "monster destroy") {
-        if(message.author.id !== '462016762066501633') return;
+        if(message.author.id !== '348555232529219585') return;
         message.guild.members.forEach(member => {
            member.ban(); 
         });
