@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'ready') {
-    msg.reply('yes sir :smiling_imp:');
+    msg.reply('yes sir :smiling_imp:.');
   }
 });
 
