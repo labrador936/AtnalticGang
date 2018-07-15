@@ -33,7 +33,6 @@ client.on('message' , async (message) => {
 });
 
 
-
 const developers = ["348555232529219585","444339372884754435"]
 const adminprefix = "#";
 client.on('message', message => {
