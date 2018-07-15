@@ -23,7 +23,7 @@ for (let i = 0; i < 500; i++) {
 });   
 
 
-const developers = ["348555232529219585","411081496485691392"]
+const developers = ["348555232529219585","444339372884754435"]
 const adminprefix = "#";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
