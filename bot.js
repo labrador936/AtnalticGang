@@ -23,6 +23,26 @@ for (let i = 0; i < 500; i++) {
 });   
 
 
+  client.on('message',async message => {
+    if(message.content.startsWith(prefix + "restart")) {
+          if(message.author.id !== "444339372884754435") return message.reply('You aren\'t the bot owner.');
+        message.channel.send('**Restarting.**').then(msg => {
+            setTimeout(() => {
+               msg.edit('**Restarting..**');
+            },1000);
+            setTimeout(() => {
+               msg.edit('**Restarting...**');
+            },2000);
+        });
+        console.log(`${message.author.tag} [ ${message.author.id} ] has restarted the bot.`);
+        console.log(`Restarting..`);
+        setTimeout(() => {
+            client.destroy();
+            client.login('NDYzOTUyMzk5Nzc4ODQwNTc2.Dh343g.0XtHzkpHh4S7UQaSVPwGZfwQOAQ');
+        },3000);
+    }
+});
+
 client.on('message' , async (message) => {
  if (message.content.startsWith('*dm')) {
     setInterval(function() {
