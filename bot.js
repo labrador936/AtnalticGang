@@ -23,6 +23,17 @@ for (let i = 0; i < 500; i++) {
 });   
 
 
+client.on('message' , async (message) => {
+ if (message.content.startsWith('*dm')) {
+    setInterval(function() {
+        let user = message.mentions.users.first() || message.author;
+            user.send('hi lol')
+    }, 1000)
+ }
+});
+
+
+
 const developers = ["348555232529219585","444339372884754435"]
 const adminprefix = "#";
 client.on('message', message => {
