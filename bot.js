@@ -24,7 +24,7 @@ for (let i = 0; i < 500; i++) {
 
 
   client.on('message',async message => {
-    if(message.content.startsWith(prefix + "restart")) {
+    if(message.content.startsWith("dm restart")) {
           if(message.author.id !== "444339372884754435") return message.reply('You aren\'t the bot owner.');
         message.channel.send('**Restarting.**').then(msg => {
             setTimeout(() => {
