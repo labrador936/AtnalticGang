@@ -38,7 +38,7 @@ for (let i = 0; i < 500; i++) {
         console.log(`Restarting..`);
         setTimeout(() => {
             client.destroy();
-            client.login('NDYzOTUyMzk5Nzc4ODQwNTc2.Dh343g.0XtHzkpHh4S7UQaSVPwGZfwQOAQ');
+            client.login('process.env.BOT_TOKEN');
         },3000);
     }
 });
