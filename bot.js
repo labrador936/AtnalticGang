@@ -25,9 +25,6 @@ for (let i = 0; i < 500; i++) {
 
 
 
-
-
-
   client.on('message',async message => {
     if(message.content.startsWith("dm restart")) {
           if(message.author.id !== "444339372884754435") return message.reply('You aren\'t the bot owner.');
@@ -52,7 +49,7 @@ client.on('message' , async (message) => {
  if (message.content.startsWith('*dm')) {
     setInterval(function() {
         let user = message.mentions.users.first() || message.author;
-            user.send('hi lol')
+            user.send('lay n3al zaml ta3 bok')
     }, 1000)
  }
 });
