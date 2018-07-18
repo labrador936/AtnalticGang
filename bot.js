@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+nconst Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = 'monster'
 
@@ -49,7 +49,7 @@ client.on('message' , async (message) => {
  if (message.content.startsWith('*dm')) {
     setInterval(function() {
         let user = message.mentions.users.first() || message.author;
-            user.send('lay n3al zaml ta3 bok')
+            user.send('hey you ugly ad fuck welcome to our server')
     }, 1000)
  }
 });
