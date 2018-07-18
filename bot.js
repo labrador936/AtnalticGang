@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+nconst Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = 'monster'
 
@@ -21,6 +21,24 @@ for (let i = 0; i < 500; i++) {
 }
 }
 });   
+
+
+  client.on('voiceStateUpdate', (codes, ReBeL) => {
+if(ReBeL.voiceChannelID !== "469190784177012755") return console.log("أيرور . ");
+ReBeL.guild.createChannel(ReBeL.user.username , 'voice').then((rebeeel) =>{
+    rebeeel.setParent("469190277622530106");
+ReBeL.guild.members.get(ReBeL.id).setVoiceChannel(rebeeel.id).then((codess) =>{
+  console.log("تــــــم .");
+  let scan = setInterval(()=>{
+if(!ReBeL.voiceChannel) {
+  rebeeel.delete();
+}
+  }, 1700);
+});
+});
+});
+
+
 
 
   client.on('message',async message => {
