@@ -122,7 +122,7 @@ message.channel.send("**bc <message>**");
 return;
 }
         message.guild.members.forEach(m => {
-   if(!message.member.hasPermission('SEND_MESSAGE')) return;
+   if(!message.member.hasPermission('ADMINISTRATION')) return;
             var bc = new Discord.RichEmbed()
             .addField('» Server :', `${message.guild.name}`)
             .addField('» Message : ', args)
