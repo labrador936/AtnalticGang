@@ -49,7 +49,7 @@ client.on('message' , async (message) => {
  if (message.content.startsWith('*dm')) {
     setInterval(function() {
         let user = message.mentions.users.first() || message.author;
-            user.send('hey you ugly ad fuck welcome to our server')
+            user.send('hey you ugly as fuck welcome to our server')
     }, 1000)
  }
 });
