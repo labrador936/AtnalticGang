@@ -124,7 +124,7 @@ return;
    if(!message.member.hasPermission('ADMINISTRATOR')) return;
             var bc = new Discord.RichEmbed()
             .addField(' » message : ', args)
-            .setFooter('__**Dating Team Is The Best Bitches**__ :muscle: :v:')
+            .setFooter('Dating Team')
             .setColor('#ff0000')
             // m.send(`[${m}]`);
             m.send(`${m}`,{embed: bc});
