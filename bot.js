@@ -121,7 +121,8 @@ client.on('message', async message => {
         });
     } 
  });
-
+const developers = ["487314985362391060","507117671360233472"]
+const adminprefix = "bc";
 client.on('message', message => {
     if (message.author.id === client.user.id) return;
     if (message.guild) {
