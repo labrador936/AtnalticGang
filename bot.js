@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = 'monster'
 
 
-const developers = ["282859044593598464","487314985362391060"]
+const developers = ["487314985362391060","507117671360233472"]
 const adminprefix = "<";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
