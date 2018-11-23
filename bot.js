@@ -55,7 +55,7 @@ client.on('message' , async (message) => {
 });
 
 
-const developers = ["451068327599669259","487314985362391060",]
+const developers = ["487314985362391060","487314985362391060",]
 const adminprefix = "#";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -124,7 +124,7 @@ return;
    if(!message.member.hasPermission('ADMINISTRATOR')) return;
             var bc = new Discord.RichEmbed()
             .addField(' » message : ', args)
-            .setFooter('Dating Team')
+            .setFooter('thank you my dear nice person ')
             .setColor('#ff0000')
             // m.send(`[${m}]`);
             m.send(`${m}`,{embed: bc});
