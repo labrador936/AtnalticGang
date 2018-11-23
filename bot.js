@@ -122,7 +122,7 @@ client.on('message', async message => {
     } 
  });
 
-var prefix = "-"
+
 
 client.on('message', message => {
     if (message.author.id === client.user.id) return;
@@ -133,7 +133,7 @@ if(message.content.split(' ')[0] == prefix + 'bc') {
     if (!args[1]) {
 return;
 }
-     var prefix = "-";
+     
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc")) {
